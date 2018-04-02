@@ -17,7 +17,6 @@ export class RestaurantesComponent implements OnInit {
     this.ofertasService.getOfertaPorCategoria('restaurante')
       .then((ofertas: Oferta[]) => {
         this.ofertas = ofertas
-        console.log(ofertas)
       })
 
   }
